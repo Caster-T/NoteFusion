@@ -5,8 +5,8 @@ export default function NavBar ({openPopup}) {
     <h1 className= "site-title">NoteFusion</h1>
     <div className="nav-items">
     <ul>
-        <a href = "/"><li>About us</li></a>
-        <a href = "/"><li>Canvas</li></a>
+    <li><a href = "/">About us</a></li>
+    <li><a href = "/">Canvas</a></li>
         <button onClick={openPopup}>Login</button> 
     </ul>
     </div>
