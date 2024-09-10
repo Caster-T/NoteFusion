@@ -13,10 +13,16 @@ function App() {
         openPopup={() => {
           setButtonPopup(true);
           setPopupContent("Aca va el login"); // Puedes modificar este texto dinámicamente
-        }} 
-      />
-<p>AAAAAAAAAAaa</p>
-        <Popup trigger={buttonPopup} setTrigger = {setButtonPopup} > <h3>{popupContent}</h3></Popup>
+        }}/>
+
+        <Popup trigger={buttonPopup} setTrigger = {setButtonPopup} > 
+          <h3>{popupContent}</h3>
+          <form>
+          <label>Username: <input type="text" /></label><br/>
+          <label>Password: <input type="password" /></label><br/>
+          <button type="submit">Log in</button>
+        </form>
+        </Popup>
     </div>
    
   );
