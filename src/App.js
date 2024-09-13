@@ -41,7 +41,7 @@ function App() {
     </ul>
   </div>
   <div class='element5'>
-    texto3 y img:
+    insertar logo de la pag.
   </div>
 </section>
         <Popup trigger={buttonPopup} setTrigger = {setButtonPopup} > 
