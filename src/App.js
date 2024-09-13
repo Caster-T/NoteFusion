@@ -15,6 +15,8 @@ function App() {
           setPopupContent("Aca va el login"); // Puedes modificar este texto dinámicamente
         }}/>
 
+<p>sdfjklghadkofghdafiohbdiohbviodsfhb odhf iodshbioufhg
+</p>
         <Popup trigger={buttonPopup} setTrigger = {setButtonPopup} > 
           <h3>{popupContent}</h3>
           <form>
