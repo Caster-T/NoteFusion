@@ -15,8 +15,34 @@ function App() {
           setPopupContent("Aca va el login"); // Puedes modificar este texto dinámicamente
         }}/>
 
-<p>sdfjklghadkofghdafiohbdiohbviodsfhb odhf iodshbioufhg
-</p>
+<section class='contenedor'>
+  <h2 id='element1'>About Us</h2>
+  <div id='element2'>
+    Somos unos estudiantes los cuales notamos la gran necesidad de crear una pagina amigable para organizar nuestras tareas, objetivos y metas.Para ello mediante nuestro curso con <span>"Generacion T"</span> hemos decidido encargarnos de esa necesidad.
+  </div>
+  <div id='element3'>
+  <h3>Que es NoteFusion</h3>
+    NoteFusion es una plataforma que permite a los usuarios gestionar sus proyectos y tareas mediante un enfoque visual y altamente personalizable. Combina la estructura de un roadmap dinámico, donde los usuarios pueden planificar y visualizar objetivos a largo plazo, con la funcionalidad de tableros al estilo Trello para organizar tareas diarias y proyectos de manera flexible.
+
+    <ul>
+      <h3>Con NoteFusion, puedes</h3>
+      <li>
+        Crear y personalizar roadmaps que muestren los hitos y fases clave de tu proyecto, ajustando el flujo de trabajo según tus necesidades.</li>
+      <li>
+        Organizar tareas en tableros visuales que se pueden dividir en fases, categorías o prioridades, y mover fácilmente las tareas entre las diferentes etapas del proyecto.
+      </li>
+      <li>
+        Gestionar equipos y colaborar en tiempo real, asignando tareas, agregando descripciones, comentarios y compartiendo archivos de manera eficiente.
+      </li>
+      <li>
+        Automatizar flujos de trabajo para optimizar la productividad, integrando herramientas externas y configurando reglas automáticas que te ahorran tiempo.
+      </li>
+    </ul>
+  </div>
+  <div id='element4'>
+    texto3 y img:
+  </div>
+</section>
         <Popup trigger={buttonPopup} setTrigger = {setButtonPopup} > 
           <h3>{popupContent}</h3>
           <form>
