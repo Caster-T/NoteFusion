@@ -16,14 +16,15 @@ function App() {
         }}/>
 
 <section class='contenedor'>
-  <h2 id='element1'>About Us</h2>
-  <div id='element2'>
+  <div class='element1'>
+  <h2>About Us</h2>
     Somos unos estudiantes los cuales notamos la gran necesidad de crear una pagina amigable para organizar nuestras tareas, objetivos y metas.Para ello mediante nuestro curso con <span>"Generacion T"</span> hemos decidido encargarnos de esa necesidad.
   </div>
-  <div id='element3'>
+  <div class='element3'>
   <h3>Que es NoteFusion</h3>
     NoteFusion es una plataforma que permite a los usuarios gestionar sus proyectos y tareas mediante un enfoque visual y altamente personalizable. Combina la estructura de un roadmap dinámico, donde los usuarios pueden planificar y visualizar objetivos a largo plazo, con la funcionalidad de tableros al estilo Trello para organizar tareas diarias y proyectos de manera flexible.
-
+  </div>
+  <div class='element4'>
     <ul>
       <h3>Con NoteFusion, puedes</h3>
       <li>
@@ -39,7 +40,7 @@ function App() {
       </li>
     </ul>
   </div>
-  <div id='element4'>
+  <div class='element5'>
     texto3 y img:
   </div>
 </section>
