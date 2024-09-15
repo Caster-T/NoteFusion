@@ -177,24 +177,32 @@
 }
 
 #Registrarse input {
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+  background-color: white;
+  color: #9B28A3;
+  border: 2px solid #9B28A3;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 20px;
   cursor: pointer;
-  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+#Registrarse input:hover{
+  background-color: #9B28A3;
+  color: white;
+}
 .login-link {
   text-align: center;
   margin-top: 10px;
 }
 
 .login-link a {
-  color: #007bff;
+  color: #9B28A3;
   text-decoration: none;
 }
 
 .login-link a:hover {
   text-decoration: underline;
 }
+/* .contenedorSingUp input{
+  
+} */
