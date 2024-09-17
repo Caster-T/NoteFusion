@@ -41,10 +41,10 @@ function App() {
           </ul>
         </div>
         <div className="element4">
-          insertar logo de la pag.
+        <img src={`${process.env.PUBLIC_URL}/img/imgPrueba.jpg`} alt="Descripción de la imagen" />
         </div>
         <div className="element5">
-          <img src="" alt="Poner algun video a modo de gift"></img>
+        <img src={`${process.env.PUBLIC_URL}/img/gifPrueba.gif`} alt="GIF animado" />
         </div>
       </section>
 
