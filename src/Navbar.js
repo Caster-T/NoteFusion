@@ -7,7 +7,7 @@ export default function NavBar ({openPopup}) {
     <ul>
     <li><a href = "/">About us</a></li>
     <li><a href = "/">Canvas</a></li>
-        <button onClick={openPopup}>Login</button> 
+        <button onClick={openPopup} id="login">Login</button> 
     </ul>
     </div>
     </nav>
