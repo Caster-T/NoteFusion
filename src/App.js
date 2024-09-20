@@ -13,6 +13,15 @@ function App() {
           setButtonPopup(true);
           setPopupContent("Aca va el login"); // Puedes modificar este texto dinámicamente
         }}/>
+      <div>
+          <h2>About us</h2>
+          <p>
+            Somos un grupo de estudiantes que queriamos una app para 
+            poder organizarnos mejor que con las que hay disponibles
+          </p>
+          <img ></img>
+      </div>
+
 
       <section className="contenedor">
         <div className="element1">
@@ -52,56 +61,11 @@ function App() {
         <div className="card p-4 shadow-lg" style={{width: '22rem'}}>
           <h4 className="text-center mb-4">Registrarse</h4>
           <form>
-            <div className="mb-3">
-              <label htmlFor="nombre" className="form-label">Nombre</label>
-              <input type="text" className="form-control" id="nombre" placeholder="Ingresa tu nombre" required />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">Correo electrónico</label>
-              <input type="email" className="form-control" id="email" placeholder="Ingresa tu correo" required />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="password" className="form-label">Contraseña</label>
-              <input type="password" className="form-control" id="password" placeholder="Ingresa tu contraseña" required />
-            </div>
-            <div className="mb-3">
-              <label htmlFor="confirmPassword" className="form-label">Confirmar contraseña</label>
-              <input type="password" className="form-control" id="confirmPassword" placeholder="Repite tu contraseña" required />
-            </div>
-            <button type="submit" className="btn btn-primary w-100">Registrarse</button>
-          </form>
-          <div className="login-link">
-            ¿Ya tienes una cuenta? <button className="btn btn-link" onClick={() => setButtonPopup(true)}>Iniciar sesión</button>
-          </div>
-        </div>
-      </section>
-
-      {/* Bootstrap Modal */}
-      <div className={`modal fade ${buttonPopup ? 'show' : ''}`} id="loginModal" tabIndex="-1" aria-labelledby="loginModalLabel" aria-hidden={!buttonPopup} style={{ display: buttonPopup ? 'block' : 'none' }}>
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="loginModalLabel">{popupContent}</h5>
-              <button type="button" className="btn-close" onClick={() => setButtonPopup(false)} aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <form>
-                <div className="mb-3">
-                  <label htmlFor="username" className="form-label">Username</label>
-                  <input type="text" className="form-control" id="username" />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="password" className="form-label">Password</label>
-                  <input type="password" className="form-control" id="password" />
-                </div>
-              </form>
-            </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-primary">Log in</button>
-            </div>
-          </div>
-        </div>
-      </div>
+          <label>Username: <input type="text" /></label><br/>
+          <label>Password: <input type="password" /></label><br/>
+          <button type="submit">Log in</button>
+        </form>
+        </Popup>
     </div>
   );
 }
